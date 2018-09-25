@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": ["error", {
+      extensions: [".js"]
+    }],
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    'react/forbid-prop-types': "off",
+    "indent": [
+      "error",
+      4,
+      {
+        "SwitchCase": 1
+      }
+    ]
+  },
+  "globals": {
+    "document": false
+  }
+}

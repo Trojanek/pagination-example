@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> should render correctly 1`] = `
+<div
+  className="Pagination-root-1"
+>
+  <WithStyles(IconButton)
+    aria-label="Previous Page"
+    disabled={true}
+    onClick={[Function]}
+  >
+    <pure(NavigateBeforeIcon) />
+  </WithStyles(IconButton)>
+  <div>
+    <WithStyles(Button)
+      disabled={true}
+      key="0"
+      onClick={[Function]}
+    >
+      1
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      disabled={false}
+      key="1"
+      onClick={[Function]}
+    >
+      2
+    </WithStyles(Button)>
+  </div>
+  <WithStyles(IconButton)
+    aria-label="Next Page"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <pure(NavigateNextIcon) />
+  </WithStyles(IconButton)>
+</div>
+`;
+
+exports[`<Pagination /> should render correctly last page 1`] = `
+<div
+  className="Pagination-root-1"
+>
+  <WithStyles(IconButton)
+    aria-label="Previous Page"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <pure(NavigateBeforeIcon) />
+  </WithStyles(IconButton)>
+  <div>
+    <WithStyles(Button)
+      disabled={false}
+      key="-1"
+      onClick={[Function]}
+    >
+      4
+    </WithStyles(Button)>
+    <WithStyles(Button)
+      disabled={true}
+      key="0"
+      onClick={[Function]}
+    >
+      5
+    </WithStyles(Button)>
+  </div>
+  <WithStyles(IconButton)
+    aria-label="Next Page"
+    disabled={true}
+    onClick={[Function]}
+  >
+    <pure(NavigateNextIcon) />
+  </WithStyles(IconButton)>
+</div>
+`;
+
+exports[`<Pagination /> should render correctly with 0 items 1`] = `
+<div
+  className="Pagination-root-1"
+>
+  <WithStyles(IconButton)
+    aria-label="Previous Page"
+    disabled={true}
+    onClick={[Function]}
+  >
+    <pure(NavigateBeforeIcon) />
+  </WithStyles(IconButton)>
+  <div>
+    <WithStyles(Button)
+      disabled={true}
+      key="0"
+      onClick={[Function]}
+    >
+      1
+    </WithStyles(Button)>
+  </div>
+  <WithStyles(IconButton)
+    aria-label="Next Page"
+    disabled={true}
+    onClick={[Function]}
+  >
+    <pure(NavigateNextIcon) />
+  </WithStyles(IconButton)>
+</div>
+`;
